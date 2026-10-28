@@ -1,0 +1,16 @@
+{
+  "screens": 32,
+  "baseExports": 96,
+  "interactionExports": 12,
+  "javascriptErrors": [],
+  "checks": [
+    "Search shortcut opens dialog and results action navigates",
+    "Share dialog opens and Escape closes",
+    "Details open in floating panel",
+    "Task list/board and detail navigation",
+    "Error retry restores populated fixture",
+    "Theme changes locally",
+    "Phone form validates and shows local completion"
+  ],
+  "scope": "Standalone visual studies only; no reference application or backend exercised."
+}

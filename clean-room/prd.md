@@ -1,5 +1,7 @@
 # Product requirements: VPS-hosted collaborative workspace
 
+Visual companion: [catalog and evidence guide](README.md), with [interactive wireframes and mockups](visuals/index.html).
+
 Version: 1.0 · 2026-10-28 · Reference revision: `b5e0278b4ea884687ed5d5b57b27f062934d16e1`
 
 Implementation companion: [Neutral specification](specs.md).

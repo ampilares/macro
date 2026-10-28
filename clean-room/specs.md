@@ -2,7 +2,7 @@
 
 Version: 1.0 · Analysis date: 2026-10-28 · Reference revision: `b5e0278b4ea884687ed5d5b57b27f062934d16e1`
 
-Companion document: [Product requirements](prd.md).
+Companion document: [Product requirements](prd.md). Visual companion: [wireframes, mockups, evidence, and coverage](README.md), with a [browsable catalog](visuals/index.html).
 
 ## 1. Purpose, evidence, and interpretation
 
@@ -25,9 +25,9 @@ Unless marked T, functional requirements below describe the source-backed target
 
 ### 1.2 Analysis coverage and limits
 
-Inspected the frontend route catalog, navigation, settings catalog, feature switches, theme definitions and styling, entity vocabulary, service boundaries, authorization contracts, collaboration architecture, database/form/scheduling models, infrastructure definitions, and feature/operator guides. Inspected three existing images covering desktop tabs, the desktop creation launcher, and a mobile CRM layout fixture.
+Inspected the frontend route catalog, navigation, settings catalog, feature switches, theme definitions and styling, entity vocabulary, service boundaries, authorization contracts, collaboration architecture, database/form/scheduling models, infrastructure definitions, and feature/operator guides. Initially inspected three existing images covering desktop tabs, the desktop creation launcher, and a mobile CRM layout fixture. The visual follow-up inspected six README screenshots covering tasks, mail, chat, documents, CRM, and an agent/task handoff; the [visual evidence table](README.md#evidence-and-reconciliation) records their paths and interpretation.
 
-No authenticated application session or new screenshot capture was performed. The checkout had no installed root/web dependencies, and the inspected Windows PATH did not provide Docker or `just`; the documented full stack also needs Nix and generated components. The standalone frontend defaults to hosted development services, so it is not an isolated way to establish parity. Some local-stack integrations use placeholders; the documented agent backend needs additional OAuth configuration, and upload extraction/conversion are not fully represented locally. No production or shared development accounts were accessed.
+No authenticated application session or new reference-application screenshot capture was performed. New browser captures in the visual companion show independently authored mockups only. The checkout had no installed root/web dependencies, and the inspected Windows PATH did not provide Docker or `just`; the documented full stack also needs Nix and generated components. The standalone frontend defaults to hosted development services, so it is not an isolated way to establish parity. Some local-stack integrations use placeholders; the documented agent backend needs additional OAuth configuration, and upload extraction/conversion are not fully represented locally. No production or shared development accounts were accessed.
 
 Directory presence is not proof of availability. Remote flag targeting and real provider entitlements were not retrieved. Some guides contain historical routes and contradictory visual descriptions. Current route declarations and shared control rules take precedence over older examples. Unresolved differences are recorded in section 13 rather than silently standardized into invented reference behavior.
 
